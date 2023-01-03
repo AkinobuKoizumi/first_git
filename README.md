@@ -1,5 +1,10 @@
 git push の実験です。
 
+
+
+==============
+初めての時
+==============
 1. gitで管理するディレクトリの作成
 mkdir first_git
 2. ディレクトリへ移動
@@ -19,5 +24,27 @@ git commit -m "First Commit."
 git push origin main
 
 
+
+==============
+2回目以降の時
+==============
+1. アップロードしたいフォルダに移動
+cd first_git
+2. ステージング
+git add -A
+3. コミット
+git commit -m 'add comment'
+4. フェッチ（リモートリポジトリの最新の履歴を取得）
+git fetch origin
+5. マージ
+git merge main
+6. プッシュ
+git push
+
+
+
 以下を参考に設定しました。
+・初めての時
 https://prog-8.com/docs/git-env
+・2回目以降の時
+https://zenn.dev/toshihide2000/articles/d0c99f96e2706a
