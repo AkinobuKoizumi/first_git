@@ -41,6 +41,14 @@ git merge main
 git push
 
 
+ブランチへのpush方法
+==============
+git clone {{URL or SSH}}
+git branch -a 
+git checkout users/koizumi
+git branch -a
+git push origin users/koizumi
+
 
 参考資料
 ==============
@@ -48,3 +56,5 @@ git push
 https://prog-8.com/docs/git-env
 ・2回目以降の時
 https://zenn.dev/toshihide2000/articles/d0c99f96e2706a
+・ブランチへのpush
+https://qiita.com/infratoweb/items/5021a36f69f26dc7f0b9
