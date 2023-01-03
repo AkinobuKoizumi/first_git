@@ -1,8 +1,6 @@
 
 
 
-def main():
-    print('Hello World')
-    return None
-
-main()
+def hello():
+    str = 'Hello World'
+    return str
