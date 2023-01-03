@@ -43,11 +43,11 @@ git push
 
 ブランチへのpush方法
 ==============
-git clone {{URL or SSH}}
-git branch -a 
-git checkout users/koizumi
-git branch -a
-git push origin users/koizumi
+1. git clone {{URL or SSH}}
+2. git branch -a 
+3. git checkout users/koizumi
+4. git branch -a
+5. git push origin users/koizumi
 
 
 参考資料
